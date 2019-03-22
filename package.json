@@ -7,6 +7,7 @@
     "start": "nodemon src/index.js"
   },
   "dependencies": {
+    "bcryptjs": "^2.4.3",
     "editorconfig": "^0.15.3",
     "eslint": "^5.15.3",
     "eslint-config-standard": "^12.0.0",
@@ -15,6 +16,11 @@
     "eslint-plugin-promise": "^4.0.1",
     "eslint-plugin-standard": "^4.0.0",
     "express": "^4.16.4",
-    "nodemon": "^1.18.10"
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.4.19",
+    "mongoose-paginate": "^5.0.3",
+    "nodemailer": "^5.1.1",
+    "nodemon": "^1.18.10",
+    "require-dir": "^1.2.0"
   }
 }
